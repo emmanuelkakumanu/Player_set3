@@ -21,6 +21,11 @@ class Ideone
           int pp=s.nextInt();
           b.add(pp);
       }
-	System.out.print(Collections.max(a)+" "+Collections.max(b));
+      int t=Collections.max(a);
+      int t1=Collections.max(b);
+	  if(t>t1)
+	  System.out.print(t1+" "+t);
+	  else
+	  System.out.print(t+" "+t1);
 	}
 }
